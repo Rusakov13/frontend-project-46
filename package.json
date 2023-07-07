@@ -1,0 +1,27 @@
+{
+  "name": "@hexlet/code",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Rusakov13/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/Rusakov13/frontend-project-46/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rusakov Aleksandr",
+  "license": "ISC",
+  "bin": {
+    "gendiff": "gendiff.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "lodash": "^4.17.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rusakov13/frontend-project-46.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rusakov13/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/Rusakov13/frontend-project-46#readme"
+}
