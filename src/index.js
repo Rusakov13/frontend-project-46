@@ -39,7 +39,7 @@ const genDiff = (filepath1, filepath2) => {
       }
       if (newObj1[key] !== newObj2[key]) {
         return {
-          key: key,
+          key,
           value1: newObj1[key],
           value2: newObj2[key],
           type: 'changed',
@@ -60,6 +60,7 @@ const genDiff = (filepath1, filepath2) => {
         type: 'added',
       };
     }
+    return result;
   });
 
   const finalResult = result.map((node) => {
@@ -75,6 +76,7 @@ const genDiff = (filepath1, filepath2) => {
     if (node.type === 'added') {
       return `+ ${node.key}: ${node.value}`;
     }
+    return finalResult;
   });
 
   return `{\n ${finalResult.join('\n ')}\n}`;

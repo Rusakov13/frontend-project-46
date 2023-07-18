@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import path from 'path';
+import { path, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { expect, test } from '@jest/globals';
+import { expect, test } from 'jest';
 import genDiff from '../src/index.js';
 
 const __filename = fileURLToPath(import.meta.url);
