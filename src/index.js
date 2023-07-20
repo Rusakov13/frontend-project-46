@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import path from 'path';
-import { cwd } from 'process';
 import { readFileSync } from 'fs';
 import _ from 'lodash';
 
