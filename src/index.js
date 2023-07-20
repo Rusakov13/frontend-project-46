@@ -4,7 +4,7 @@ import { cwd } from 'process';
 import { readFileSync } from 'fs';
 import _ from 'lodash';
 
-const getPath = (file) => path.resolve(cwd(), file);
+const getPath = (file) => path.resolve('__fixtures__', file);
 
 const genDiff = (filepath1, filepath2) => {
   const absolutePath1 = getPath(filepath1);
@@ -12,6 +12,7 @@ const genDiff = (filepath1, filepath2) => {
 
   const extension1 = path.extname(filepath1);
   const extension2 = path.extname(filepath2);
+
   const obj1 = readFileSync(absolutePath1, 'utf-8');
   const obj2 = readFileSync(absolutePath2, 'utf-8');
 
