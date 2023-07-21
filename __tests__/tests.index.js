@@ -16,3 +16,13 @@ test('test file.json', () => {
   const actual1 = genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'));
   expect(actual1).toEqual(readFile('expect.txt'));
 });
+
+test('test file.yml', () => {
+  const actual2 = genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'));
+  expect(actual2).toEqual(readFile('expect.txt'));
+});
+
+test('test file.yaml', () => {
+  const actual3 = genDiff(getFixturePath('file1.yaml'), getFixturePath('file2.yaml'));
+  expect(actual3).toEqual(readFile('expect.txt'));
+});
