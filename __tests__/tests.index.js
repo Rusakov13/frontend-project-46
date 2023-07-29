@@ -41,3 +41,19 @@ test('plain test file.yaml', () => {
   const actual6 = genDiff(getFixturePath('file1.yaml'), getFixturePath('file2.yaml'), 'plain');
   expect(actual6).toEqual(readFile('plain_expect.txt'));
 });
+
+test('json test file.json', () => {
+  const actual7 = genDiff(getFixturePath('file1.json'), getFixturePath('file2.json'), 'json');
+  expect(actual7).toEqual(readFile('json_expect.txt'));
+});
+
+test('json test file.yml', () => {
+  const actual8 = genDiff(getFixturePath('file1.yml'), getFixturePath('file2.yml'), 'json');
+  expect(actual8).toEqual(readFile('json_expect.txt'));
+});
+
+test('json test file.yaml', () => {
+  const actual9 = genDiff(getFixturePath('file1.yaml'), getFixturePath('file2.yaml'), 'json');
+  expect(actual9).toEqual(readFile('json_expect.txt'));
+});
+
