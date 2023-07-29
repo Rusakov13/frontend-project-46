@@ -2,7 +2,6 @@
 import path from 'path';
 import process from 'process';
 import { readFileSync } from 'fs';
-import _ from 'lodash';
 import parser from './parsers.js';
 import tree from './differenceFile.js';
 import stylish from './stylish.js';

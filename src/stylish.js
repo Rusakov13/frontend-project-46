@@ -30,6 +30,8 @@ const makeStylish = (tree) => {
           }
           case 'nested':
             return `${indent(depth)}  ${key}: {\n${iter(children, depth + 1)}\n${indent(depth)}  }`;
+          default:
+            throw new Error(`Unknow ${status}!`);
         }
       })
       .join('\n');
