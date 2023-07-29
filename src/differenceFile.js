@@ -13,7 +13,7 @@ const tree = (obj1, obj2) => {
       return { key, value: obj2[key], status: 'added' };
     }
     if (!Object.hasOwn(obj2, key)) {
-      return { key, value: obj1[key], status: 'deleted' };
+      return { key, value: obj1[key], status: 'removed' };
     }
     if (obj1[key] === obj2[key]) {
       return { key, value: obj1[key], status: 'unchanged' };
@@ -22,7 +22,7 @@ const tree = (obj1, obj2) => {
       key,
       oldValue: obj1[key],
       newValue: obj2[key],
-      status: 'changed',
+      status: 'updated',
     };
   });
 };
