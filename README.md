@@ -25,17 +25,19 @@
 3. Сделайте глобальную установку пакета из локальной директории:
    > npm link
 
-Step #3:
+---
+
+Шаг #3:
 https://asciinema.org/a/PAzU1OJfs96UEC1IZIvYpx2uC
 
-Step #5:
+Шаг #5:
 https://asciinema.org/a/jKYqEKUgq5sjZC1Mdl0AoQBBl
 
-Step#6:
+Шаг#6:
 https://asciinema.org/a/ZaRC40l37d5XLOpRV8Q5JUDvt
 
-Step#7:
+Шаг#7:
 https://asciinema.org/a/wLfbQkxQSfca74dmfq4UEJeuh
 
-Step#8
+Шаг#8
 https://asciinema.org/a/MB4w1XLOnKvEog7lc53YkpTVT
