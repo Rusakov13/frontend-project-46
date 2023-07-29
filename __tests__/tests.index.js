@@ -56,4 +56,3 @@ test('json test file.yaml', () => {
   const actual9 = genDiff(getFixturePath('file1.yaml'), getFixturePath('file2.yaml'), 'json');
   expect(actual9).toEqual(readFile('json_expect.txt'));
 });
-

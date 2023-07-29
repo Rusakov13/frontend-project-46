@@ -8,7 +8,7 @@ const formatTree = (tree, format) => {
       return plain(tree);
     case 'stylish':
       return stylish(tree);
-      case 'json':
+    case 'json':
       return json(tree);
     default:
       throw new Error(`Unknow format: ${format}!`);
