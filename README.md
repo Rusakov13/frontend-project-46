@@ -28,17 +28,22 @@
 ---
 
 Шаг #3:
-<a href="https://asciinema.org/a/PAzU1OJfs96UEC1IZIvYpx2uC"></a>
-
+[![asciicast](https://asciinema.org/a/PAzU1OJfs96UEC1IZIvYpx2uC)](https://asciinema.org/a/PAzU1OJfs96UEC1IZIvYpx2uC)
 
 Шаг #5:
 https://asciinema.org/a/jKYqEKUgq5sjZC1Mdl0AoQBBl
+[![asciicast](https://asciinema.org/a/jKYqEKUgq5sjZC1Mdl0AoQBBl)](https://asciinema.org/a/jKYqEKUgq5sjZC1Mdl0AoQBBl)
 
 Шаг#6:
 https://asciinema.org/a/ZaRC40l37d5XLOpRV8Q5JUDvt
+[![asciicast](https://asciinema.org/a/ZaRC40l37d5XLOpRV8Q5JUDvt)](https://asciinema.org/a/ZaRC40l37d5XLOpRV8Q5JUDvt)
 
 Шаг#7:
 https://asciinema.org/a/wLfbQkxQSfca74dmfq4UEJeuh
+[![asciicast](https://asciinema.org/a/wLfbQkxQSfca74dmfq4UEJeuh)](https://asciinema.org/a/wLfbQkxQSfca74dmfq4UEJeuh)
 
 Шаг#8
 https://asciinema.org/a/MB4w1XLOnKvEog7lc53YkpTVT
+[![asciicast](https://asciinema.org/a/MB4w1XLOnKvEog7lc53YkpTVT)](https://asciinema.org/a/MB4w1XLOnKvEog7lc53YkpTVT)
+
+
