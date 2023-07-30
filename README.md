@@ -28,7 +28,8 @@
 ---
 
 Шаг #3:
-https://asciinema.org/a/PAzU1OJfs96UEC1IZIvYpx2uC
+<a href="https://asciinema.org/a/PAzU1OJfs96UEC1IZIvYpx2uC"></a>
+
 
 Шаг #5:
 https://asciinema.org/a/jKYqEKUgq5sjZC1Mdl0AoQBBl
